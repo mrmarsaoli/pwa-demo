@@ -1,0 +1,8 @@
+app/vercel/pwa_demo_neon/twa/Application.java
+ app.vercel.pwa_demo_neon.twa.Application
+app/vercel/pwa_demo_neon/twa/LauncherActivity.java
+ app.vercel.pwa_demo_neon.twa.LauncherActivity
+app/vercel/pwa_demo_neon/twa/BuildConfig.java
+ app.vercel.pwa_demo_neon.twa.BuildConfig
+app/vercel/pwa_demo_neon/twa/DelegationService.java
+ app.vercel.pwa_demo_neon.twa.DelegationService

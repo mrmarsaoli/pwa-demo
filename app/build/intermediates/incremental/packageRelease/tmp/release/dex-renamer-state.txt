@@ -1,0 +1,4 @@
+#Sun May 08 15:42:24 WIT 2022
+base.0=/Users/mrmarsaoli/Desktop/work/demo/pwa-demo/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

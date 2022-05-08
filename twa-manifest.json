@@ -1,0 +1,46 @@
+{
+  "packageId": "app.vercel.pwa_demo_neon.twa",
+  "host": "pwa-demo-neon.vercel.app",
+  "name": "PWA demo Mrmarsaoli",
+  "launcherName": "PWA demo",
+  "display": "standalone",
+  "themeColor": "#0079D5",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#444444",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://pwa-demo-neon.vercel.app/icon-512x512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/Users/mrmarsaoli/Desktop/work/demo/pwa-demo/android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://pwa-demo-neon.vercel.app/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "orientation": "default",
+  "fingerprints": [
+    {
+      "value": "13:CA:43:3F:2C:BC:8C:4C:9B:CA:D2:D2:BB:06:BA:42:FF:D6:A7:F1:34:33:C1:6C:0F:A1:4D:7D:20:DA:3D:C9"
+    }
+  ],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1"
+}

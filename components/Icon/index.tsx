@@ -1,2 +1,1 @@
-export * from './IconLoaderCircle'
-export * from './Icon'
+export * from "./Icon";

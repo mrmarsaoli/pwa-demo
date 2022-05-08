@@ -3,7 +3,7 @@ import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
-    <div className="m-0 flex items-center justify-center flex-col">
+    <div className="m-0 flex items-center justify-center flex-col h-screen">
       <Head>
         <title>PWA demo</title>
         <meta name="description" content="PWA app made with Next.js" />
@@ -21,6 +21,7 @@ const Home: NextPage = () => {
           href="https://mrmarsaoli.com"
           target="_blank"
           rel="noopener noreferrer"
+          className="font-bold"
         >
           Mrmarsaoli
         </a>

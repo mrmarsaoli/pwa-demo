@@ -1641,8 +1641,8 @@ androidx.core.content.res.GrowingArrayUtils
 com.google.android.gms.internal.location.zzg
 com.google.android.gms.tasks.zzw
 androidx.annotation.IdRes
-androidx.customview.widget.FocusStrategy$SequentialComparator
 androidx.drawerlayout.widget.DrawerLayout
+androidx.customview.widget.FocusStrategy$SequentialComparator
 com.google.android.gms.tasks.zzf
 androidx.core.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi19
 com.google.android.gms.location.LocationResult:
@@ -2274,8 +2274,8 @@ androidx.loader.R$dimen
 com.google.android.gms.common.util.ScopeUtil
 androidx.core.provider.SelfDestructiveThread$3
 androidx.lifecycle.Transformations$2$1
-com.google.android.gms.common.internal.SignInButtonImpl
 com.google.android.gms.common.internal.IResolveAccountCallbacks
+com.google.android.gms.common.internal.SignInButtonImpl
 androidx.viewpager.widget.PagerTitleStrip$PageListener
 com.google.android.gms.common.data.DataBufferSafeParcelable
 com.google.android.gms.tasks.TaskExecutors$zza

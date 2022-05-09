@@ -55,8 +55,8 @@ android {
         applicationId "app.vercel.pwa_demo_neon.twa"
         minSdkVersion 19
         targetSdkVersion 31
-        versionCode 1
-        versionName "1"
+        versionCode 2
+        versionName "2"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name

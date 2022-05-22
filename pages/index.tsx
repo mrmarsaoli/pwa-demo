@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button, TextField, Toast } from "../components";
 
 const Home: NextPage = () => {
@@ -25,6 +25,57 @@ const Home: NextPage = () => {
     setToastMessage(`Hi ${_name}!`);
     setName("");
   };
+
+  const displayNotification = () => {
+    console.log("check perimission", Notification.permission);
+
+    if (Notification.permission !== "granted") {
+      Notification.requestPermission((status) => {
+        if (status === "granted") {
+          displayNotification();
+        }
+
+        console.log("Notification permission status:", status);
+      });
+
+      return;
+    }
+
+    navigator.serviceWorker.getRegistration().then((reg) => {
+      const options = {
+        body: "Here is a notification body!",
+        icon: "icon-192x192.png",
+        vibrate: [100, 50, 100],
+        data: {
+          dateOfArrival: Date.now(),
+          primaryKey: 1,
+        },
+        actions: [
+          {
+            action: "okay",
+            title: "Okelah boss",
+            // icon: "images/checkmark.png",
+          },
+          {
+            action: "close",
+            title: "Close notification",
+            // icon: "images/xmark.png",
+          },
+        ],
+      };
+
+      if (!reg) {
+        return;
+      }
+
+      console.log(options);
+      reg.showNotification("Test notifications!", options);
+    });
+  };
+
+  useEffect(() => {
+    displayNotification();
+  }, []);
 
   return (
     <div className="m-0 flex items-center justify-center flex-col h-screen">
